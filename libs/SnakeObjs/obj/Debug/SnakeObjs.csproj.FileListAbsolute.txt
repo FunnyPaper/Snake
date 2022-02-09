@@ -1,0 +1,9 @@
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeObjs\bin\Debug\SnakeObjs.dll
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeObjs\bin\Debug\SnakeObjs.pdb
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeObjs\bin\Debug\FakeUnity.dll
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeObjs\bin\Debug\FakeUnity.pdb
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeObjs\obj\Debug\SnakeObjs.csproj.AssemblyReference.cache
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeObjs\obj\Debug\SnakeObjs.csproj.CoreCompileInputs.cache
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeObjs\obj\Debug\SnakeObjs.csproj.CopyComplete
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeObjs\obj\Debug\SnakeObjs.dll
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeObjs\obj\Debug\SnakeObjs.pdb

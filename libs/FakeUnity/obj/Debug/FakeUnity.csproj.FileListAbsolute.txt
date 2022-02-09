@@ -1,0 +1,6 @@
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\FakeUnity\bin\Debug\FakeUnity.dll
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\FakeUnity\bin\Debug\FakeUnity.pdb
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\FakeUnity\obj\Debug\FakeUnity.csproj.AssemblyReference.cache
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\FakeUnity\obj\Debug\FakeUnity.csproj.CoreCompileInputs.cache
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\FakeUnity\obj\Debug\FakeUnity.dll
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\FakeUnity\obj\Debug\FakeUnity.pdb

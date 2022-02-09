@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B41BD641-E4E1-44BE-94F0-B50662F20E0C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SnakeLibrary</RootNamespace>
+    <AssemblyName>SnakeLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\TestSnake1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TestSnake1.Designer.cs">
+      <DependentUpon>TestSnake1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game\Boards\IBoard.cs" />
+    <Compile Include="Game\Boards\SnakeBoard.cs" />
+    <Compile Include="Game\Draw\Unit.cs" />
+    <Compile Include="Game\Entities\BasicSnake.cs" />
+    <Compile Include="Game\Entities\BasicSnakeSegment.cs" />
+    <Compile Include="Game\Entities\Collectibles\Fruits\Apple.cs" />
+    <Compile Include="Game\Entities\Collectibles\Fruits\Fruit.cs" />
+    <Compile Include="Game\Entities\Collectibles\ICollectible.cs" />
+    <Compile Include="Game\Entities\Collectibles\Fruits\IFruit.cs" />
+    <Compile Include="Game\Entities\Collectibles\PowerUps\Snake\Lenghten.cs" />
+    <Compile Include="Game\Entities\Collectibles\PowerUps\ITimedPowerUp.cs" />
+    <Compile Include="Game\Entities\Collectibles\PowerUps\Snake\TimedLenghten.cs" />
+    <Compile Include="Game\Entities\Collectibles\PowerUps\Snake\TimedShorten.cs" />
+    <Compile Include="Game\Entities\Collectibles\PowerUps\TimedPowerUp.cs" />
+    <Compile Include="Game\Entities\Components\ICollider.cs" />
+    <Compile Include="Game\Entities\Components\IColliderList.cs" />
+    <Compile Include="Game\Entities\Components\IPoint2DColliderList.cs" />
+    <Compile Include="Game\Entities\ISnake.cs" />
+    <Compile Include="Game\Entities\Collectibles\PowerUps\IPowerUp.cs" />
+    <Compile Include="Game\Entities\Collectibles\PowerUps\ITimed.cs" />
+    <Compile Include="Game\Entities\Collectibles\PowerUps\PowerUp.cs" />
+    <Compile Include="Game\Entities\Collectibles\PowerUps\Snake\Shorten.cs" />
+    <Compile Include="Game\Entities\Components\Point2DCollider.cs" />
+    <Compile Include="Game\Entities\Components\IPoint2DCollider.cs" />
+    <Compile Include="Game\Entities\Components\IComponent.cs" />
+    <Compile Include="Game\Entities\IEntity.cs" />
+    <Compile Include="Game\Entities\ISnakeSegment.cs" />
+    <Compile Include="Game\EventHandlers\GameEventArgs.cs" />
+    <Compile Include="Game\Mechanics.cs" />
+    <Compile Include="Game\Statistics.cs" />
+    <Compile Include="Helper\Input.cs" />
+    <Compile Include="Helper\Interfaces\IDeepCloneable.cs" />
+    <Compile Include="Helper\Painter.cs" />
+    <Compile Include="Helper\RefreshableObject.cs" />
+    <Compile Include="Helper\SingleRandom.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\GameOverScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\GameOverScreen.Designer.cs">
+      <DependentUpon>GameOverScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\GameScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\GameScreen.Designer.cs">
+      <DependentUpon>GameScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\IScreen.cs" />
+    <Compile Include="Screens\MenuScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\MenuScreen.Designer.cs">
+      <DependentUpon>MenuScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\OptionsScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\OptionsScreen.Designer.cs">
+      <DependentUpon>OptionsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\PauseScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Screens\PauseScreen.Designer.cs">
+      <DependentUpon>PauseScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\ISettings.cs" />
+    <Compile Include="Settings\Settings.cs" />
+    <Compile Include="Settings\SettingsManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\TestSnake1.resx">
+      <DependentUpon>TestSnake1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GameOverScreen.resx">
+      <DependentUpon>GameOverScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\GameScreen.resx">
+      <DependentUpon>GameScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\MenuScreen.resx">
+      <DependentUpon>MenuScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\OptionsScreen.resx">
+      <DependentUpon>OptionsScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Screens\PauseScreen.resx">
+      <DependentUpon>PauseScreen.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

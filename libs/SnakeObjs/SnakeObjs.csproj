@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4B67F7A-9D64-4613-9AFC-63FE0A4756C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SnakeObjs</RootNamespace>
+    <AssemblyName>SnakeObjs</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameHooks\Settings.cs" />
+    <Compile Include="GameHooks\Statistics.cs" />
+    <Compile Include="IDeepCloneable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefreshableObject.cs" />
+    <Compile Include="Scenes\SnakeGameScene.cs" />
+    <Compile Include="Scripts\Collectibles\CollectibleScript.cs" />
+    <Compile Include="Scripts\Collectibles\FruitScript.cs" />
+    <Compile Include="Scripts\PlayerScript.cs" />
+    <Compile Include="Scripts\PowerUpGeneratorScript.cs" />
+    <Compile Include="Scripts\Collectibles\PowerUps\Lenghten.cs" />
+    <Compile Include="Scripts\Collectibles\PowerUps\PowerUpScript.cs" />
+    <Compile Include="Scripts\Collectibles\PowerUps\Shorten.cs" />
+    <Compile Include="Scripts\Collectibles\PowerUps\TimedLenghten.cs" />
+    <Compile Include="Scripts\Collectibles\PowerUps\TimedPowerUpScript.cs" />
+    <Compile Include="Scripts\Collectibles\PowerUps\TimedShorten.cs" />
+    <Compile Include="Scripts\SnakeSegmentScript.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FakeUnity\FakeUnity.csproj">
+      <Project>{cbafd6ec-1820-4d37-bca6-892f4932947c}</Project>
+      <Name>FakeUnity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

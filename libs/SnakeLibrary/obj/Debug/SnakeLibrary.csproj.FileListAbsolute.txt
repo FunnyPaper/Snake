@@ -1,0 +1,13 @@
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.csproj.AssemblyReference.cache
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.Forms.TestSnake1.resources
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.Screens.GameOverScreen.resources
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.Screens.GameScreen.resources
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.Screens.MenuScreen.resources
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.Screens.OptionsScreen.resources
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.Screens.PauseScreen.resources
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.csproj.GenerateResource.cache
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\bin\Debug\SnakeLibrary.dll
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\bin\Debug\SnakeLibrary.pdb
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.dll
+C:\Users\Mua\Desktop\przenosiny\Practice_Coding\C#\Forms\Snake\libs\SnakeLibrary\obj\Debug\SnakeLibrary.pdb

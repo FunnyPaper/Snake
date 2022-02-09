@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake.csproj", "{2B17CDA4-65D0-4A4D-A8D9-6B3824BA7974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeUnity", "libs\FakeUnity\FakeUnity.csproj", "{CBAFD6EC-1820-4D37-BCA6-892F4932947C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeObjs", "libs\SnakeObjs\SnakeObjs.csproj", "{E4B67F7A-9D64-4613-9AFC-63FE0A4756C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B17CDA4-65D0-4A4D-A8D9-6B3824BA7974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B17CDA4-65D0-4A4D-A8D9-6B3824BA7974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B17CDA4-65D0-4A4D-A8D9-6B3824BA7974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B17CDA4-65D0-4A4D-A8D9-6B3824BA7974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBAFD6EC-1820-4D37-BCA6-892F4932947C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAFD6EC-1820-4D37-BCA6-892F4932947C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAFD6EC-1820-4D37-BCA6-892F4932947C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAFD6EC-1820-4D37-BCA6-892F4932947C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4B67F7A-9D64-4613-9AFC-63FE0A4756C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4B67F7A-9D64-4613-9AFC-63FE0A4756C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4B67F7A-9D64-4613-9AFC-63FE0A4756C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4B67F7A-9D64-4613-9AFC-63FE0A4756C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7C0E792-87A4-456B-95E1-DC3778674D2A}
+	EndGlobalSection
+EndGlobal
